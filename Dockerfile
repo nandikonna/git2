@@ -8,4 +8,4 @@ RUN apt-get update -y && \
 COPY index.html /var/www/html/
 
 # start the Apache2 sevice in the foreground
-CMD ["/usr/sbin/apachectl", "-D", FOREGROUND"]
+CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
